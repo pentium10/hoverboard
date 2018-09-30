@@ -151,17 +151,17 @@
 
 
         <div class="action-buttons" layout horizontal center-justified wrap>
-          <paper-button
-            class="watch-video"
-            on-tap="_playVideo"
-            ga-on="click"
-            ga-event-category="video"
-            ga-event-action="watch"
-            ga-event-label="hero block - view highlights"
+
+             <a
+            href="/schedule"
           >
-            <iron-icon icon="hoverboard:movie"></iron-icon>
-            {$ viewHighlights $}
-          </paper-button>
+            <paper-button 
+                class="watch-video"
+                >
+                <iron-icon icon="hoverboard:movie"></iron-icon>
+              <span class="cta-label">View schedule</span>
+            </paper-button>
+          </a>
           <paper-button
             on-tap="_scrollToTickets"
             ga-on="click"
@@ -213,15 +213,6 @@
             statePath: 'ui.viewport',
           },
         };
-      }
-
-      _playVideo() {
-        uiActions.toggleVideoDialog({
-          title: '{$  aboutBlock.callToAction.howItWas.title $}',
-          youtubeId: '{$  aboutBlock.callToAction.howItWas.youtubeId $}',
-          disableControls: true,
-          opened: true,
-        });
       }
 
       _scrollToTickets() {
