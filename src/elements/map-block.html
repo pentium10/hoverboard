@@ -122,18 +122,9 @@
                 disableDoubleClickZoom: true,
                 scrollwheel: false,
                 draggable: false,
-                styles: [{
-                  stylers: [{
-                    lightness: 40,
-                  }, {
-                    visibility: 'on',
-                  }, {
-                    gamma: 0.9,
-                  }, {
-                    weight: 0.4,
-                  }],
-                }, {
-                  elementType: 'labels',
+                styles: [
+                 {
+                  elementType: 'labels.text',
                   stylers: [{
                     visibility: 'on',
                   }],
@@ -145,7 +136,7 @@
                 }, {
                   featureType: 'road',
                   stylers: [{
-                    visibility: 'off',
+                    visibility: 'on',
                   }],
                 }],
               }
@@ -167,7 +158,7 @@
               icon: {
                 url: 'images/map-marker.svg',
                 anchor: new google.maps.Point(25, 50),
-                scaledSize: new google.maps.Size(50, 50),
+                scaledSize: new google.maps.Size(70, 70),
               },
               map: e.detail,
             });

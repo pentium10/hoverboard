@@ -120,11 +120,11 @@
         "pointer": {
             "latitude": 46.547000,
             "longitude": 24.568218,
-            "zoom": 8
+            "zoom": 16
         },
         "mapCenter": {
-            "latitude": 46.547130,
-            "longitude": 22.563291
+            "latitude": 46.547000,
+            "longitude": 24.558218
         },
         "description": "In the center of the city, next to Medieval Fortress in the IT workshop rooms of the University Petru Maior new Corp L."
     },
@@ -207,7 +207,7 @@
             "itemsCount": 3
         },
         "speakers": {
-            "itemsCount": 4
+            "itemsCount": 5
         },
         "previousSpeakers": {
             "itemsCount": 6
