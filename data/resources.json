@@ -94,7 +94,7 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "Join us for the first Cloud Next'18 Extended Targu Mures event, where we'll bring together cloud enthusiasts and the developer community to be a part of the cloud experience. Next Extended allows local developers to access exciting Next ‘18 content and engage with the community through local speakers, activities, and hands-on labs. ",
+        "description": "Join us for the first **Cloud Next'18 Extended Targu Mures** event, where we'll bring together cloud enthusiasts and the developer community to be a part of the cloud experience. <br/>Next Extended allows local developers to access exciting Next ‘18 content and engage with the community through local speakers, activities, and hands-on labs. ",
         "label": "See schedule",
         "link": "/schedule"
       },
@@ -125,7 +125,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, workshops, coffee breaks, lunch.",
+    "ticketsDetails": "*Tickets grant access to all sections, workshops, coffee breaks, lunch. <br/>If your company pays your ticket for invoicing contact us.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
@@ -187,7 +187,7 @@
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Location: L31"
   },
   "subscribeBlock": {
     "callToAction": {

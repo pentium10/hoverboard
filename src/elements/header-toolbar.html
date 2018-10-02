@@ -1,5 +1,6 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 
+<link rel="import" href="../mixins/scroll-functions.html">
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="./shared-styles.html">
 
@@ -154,10 +155,8 @@
 
         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
 
-        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
-           ga-event-category="ticket button" ga-event-action="buy_click">
-          <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-        </a>
+          <a href="#">
+          <paper-button class="buy-button" on-tap="_scrollToTickets" primary>{$ buyTicket $}</paper-button></a>
       </paper-tabs>
 
       <paper-menu-button
@@ -231,7 +230,7 @@
 
   <script>
 
-    class HeaderToolbar extends ReduxMixin(Polymer.Element) {
+    class HeaderToolbar extends ScrollFunctions(ReduxMixin(Polymer.Element)) {
       static get is() {
         return 'header-toolbar';
       }
@@ -337,6 +336,15 @@
         if (!tickets.list.length) return '';
         const availableTicket = tickets.list.filter((ticket) => ticket.available)[0];
         return availableTicket ? availableTicket.url : tickets.list[0].url;
+      }
+      
+      _scrollToTickets() {
+        // eslint-disable-next-line no-undef
+        const toolbarHeight = HOVERBOARD.Elements.HeaderToolbar.getBoundingClientRect().height - 1;
+        // eslint-disable-next-line no-undef
+        const ticketsBlockPositionY = HOVERBOARD.Elements.Tickets.getBoundingClientRect().top
+          - toolbarHeight;
+        this.scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
       }
 
       _setToolbarSettings(settings) {

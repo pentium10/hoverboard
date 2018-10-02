@@ -6,128 +6,134 @@
 <link rel="import" href="hoverboard-icons.html">
 
 <dom-module id="about-block">
-  <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment flex-reverse"></style>
+    <template>
+        <style is="custom-style" include="shared-styles flex flex-alignment flex-reverse"></style>
 
-    <style>
-      :host {
-        display: block;
-      }
+        <style>
+            :host {
+                display: block;
+            }
 
-      .container {
-        padding-top: 64px;
-      }
+            .container {
+                padding-top: 64px;
+            }
 
-      .content {
-        display: grid;
-        grid-gap: 32px;
-        grid-template-columns: 1fr;
-      }
+            .content {
+                display: grid;
+                grid-gap: 32px;
+                grid-template-columns: 1fr;
+            }
 
-      .statistics-block {
-        width: 100%;
-        display: grid;
-        grid-gap: 32px 16px;
-        grid-template-columns: repeat(2, 1fr);
-      }
+            .statistics-block {
+                width: 100%;
+                display: grid;
+                grid-gap: 32px 16px;
+                grid-template-columns: repeat(2, 1fr);
+            }
 
-      .numbers {
-        font-size: 40px;
-      }
+            .numbers {
+                font-size: 40px;
+            }
 
-      .numbers::after {
-        content: "";
-        display: block;
-        height: 2px;
-        width: 64px;
-        background-color: var(--default-primary-color);
-      }
+            .numbers::after {
+                content: "";
+                display: block;
+                height: 2px;
+                width: 64px;
+                background-color: var(--default-primary-color);
+            }
 
-      .label {
-        margin-top: 4px;
-      }
+            .label {
+                margin-top: 4px;
+            }
 
-      @media (min-width: 640px) {
-        .content {
-          grid-gap: 64px;
-          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        }
+            @media (min-width: 640px) {
+                .content {
+                    grid-gap: 64px;
+                    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                }
 
-        .statistics-block {
-          grid-gap: 32px;
-        }
+                .statistics-block {
+                    grid-gap: 32px;
+                }
 
-        .numbers {
-          font-size: 56px;
-        }
-      }
+                .numbers {
+                    font-size: 56px;
+                }
+            }
 
-    </style>
+        </style>
 
-    <div class="container">
+        <div class="container">
 
-      <div class="content">
+            <div class="content">
 
-        <div>
-          <h1 class="container-title">{$ aboutBlock.title $}</h1>
-          <p>{$ aboutBlock.callToAction.featuredSessions.description $}</p>
-          
+                <div>
+                    <h1 class="container-title">{$ aboutBlock.title $}</h1>
+                    <p>
+                    <marked-element markdown="{$ aboutBlock.callToAction.featuredSessions.description $}">
+                        <div class="markdown-html"></div>
+                    </marked-element>
+                    </p>
 
-          <p>{$ aboutBlock.callToAction.howItWas.description $}</p>
-          <a
-            href="{$ aboutBlock.callToAction.featuredSessions.link $}"
-          >
-            <paper-button class="animated icon-right">
-              <span class="cta-label">{$ aboutBlock.callToAction.featuredSessions.label $}</span>
-              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-            </paper-button>
-          </a>
+
+                    <p><marked-element markdown="{$ aboutBlock.callToAction.howItWas.description $}">
+                        <div class="markdown-html"></div>
+                    </marked-element></p>
+                    <a
+                        href="{$ aboutBlock.callToAction.featuredSessions.link $}"
+                        >
+                        <paper-button class="animated icon-right">
+                            <span class="cta-label">{$ aboutBlock.callToAction.featuredSessions.label $}</span>
+                            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+                        </paper-button>
+                    </a>
+                </div>
+
+                <div class="statistics-block">
+
+                    <div class="item">
+                        <div class="numbers">{$ aboutBlock.statisticsBlock.attendees.number $}</div>
+                        <div class="label">{$ aboutBlock.statisticsBlock.attendees.label $}</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="numbers">{$ aboutBlock.statisticsBlock.days.number $}</div>
+                        <div class="label">{$ aboutBlock.statisticsBlock.days.label $}</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="numbers">{$ aboutBlock.statisticsBlock.sessions.number $}</div>
+                        <div class="label">{$ aboutBlock.statisticsBlock.sessions.label $}</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="numbers">{$ aboutBlock.statisticsBlock.tracks.number $}</div>
+                        <div class="label">{$ aboutBlock.statisticsBlock.tracks.label $}</div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div class="statistics-block">
+    </template>
 
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.attendees.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.attendees.label $}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.days.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.days.label $}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.sessions.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.sessions.label $}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.tracks.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.tracks.label $}</div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </template>
-
-  <script>
-    class AboutBlock extends ReduxMixin(Polymer.Element) {
-      static get is() {
+    <script>
+      class AboutBlock extends ReduxMixin(Polymer.Element) {
+        static get is() {
         return 'about-block';
-      }
+        }
 
-      _playVideo() {
+        _playVideo() {
         uiActions.toggleVideoDialog({
-          title: '{$  aboutBlock.callToAction.howItWas.title $}',
-          youtubeId: '{$  aboutBlock.callToAction.howItWas.youtubeId $}',
-          disableControls: true,
-          opened: true,
+        title: '{$  aboutBlock.callToAction.howItWas.title $}',
+                youtubeId: '{$  aboutBlock.callToAction.howItWas.youtubeId $}',
+                disableControls: true,
+                opened: true,
         });
+        }
       }
-    }
 
-    window.customElements.define(AboutBlock.is, AboutBlock);
-  </script>
+        window.customElements.define(AboutBlock.is, AboutBlock);
+    </script>
 </dom-module>
