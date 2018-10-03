@@ -62,29 +62,29 @@
         "2018-11-08": {
             "dateReadable": "November 8, Thursday",
             "timeslots": [{
-                    "endTime": "10:00",
+                    "endTime": "09:45",
                     "sessions": [{
                             "items": [32]
                         }],
                     "startTime": "09:00"
                 }, {
-                    "endTime": "10:15",
+                    "endTime": "10:00",
                     "sessions": [{
                             "items": [36]
                         }],
-                    "startTime": "10:00"
+                    "startTime": "09:45"
                 }, {
-                    "endTime": "11:00",
+                    "endTime": "10:45",
                     "sessions": [{
                             "items": [39]
                         }],
-                    "startTime": "10:15"
+                    "startTime": "10:00"
                 }, {
                     "endTime": "11:15",
                     "sessions": [{
                             "items": [35]
                         }],
-                    "startTime": "11:00"
+                    "startTime": "10:45"
                 }, {
                     "endTime": "12:00",
                     "sessions": [{
@@ -110,23 +110,23 @@
                         }],
                     "startTime": "14:00"
                 }, {
-                    "endTime": "15:15",
+                    "endTime": "15:30",
                     "sessions": [{
                             "items": [34]
                         }],
                     "startTime": "15:00"
                 }, {
-                    "endTime": "17:30",
+                    "endTime": "16:30",
                     "sessions": [{
-                            "items": [28]
+                            "items": [27]
                         }],
                     "startTime": "15:30"
                 }, {
                     "endTime": "18:30",
                     "sessions": [{
-                            "items": [27]
+                            "items": [28]
                         }],
-                    "startTime": "17:30"
+                    "startTime": "16:30"
                 }, {
                     "endTime": "19:00",
                     "sessions": [{
@@ -160,7 +160,7 @@
             "complexity": "Beginner",
             "description": "TBD",
             "language": "English",
-            "speakers": ["marton_kodok"],
+            "speakers": ["laszlo_budai"],
             "tags": ["Kubernetes"],
             "title": "Kubernetes Workshop: TBD"
         },
@@ -168,7 +168,7 @@
             "complexity": "Intermediate",
             "description": "",
             "language": "English",
-            "speakers": ["marton_kodok"],
+            "speakers": ["botond_palfi"],
             "tags": ["Kubernetes"],
             "title": "Running microservice applications using Docker and Google Cloud Kubernetes framework"
         },
@@ -222,7 +222,7 @@
             "tags": ["Intro"],
             "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
             "language": "English",
-            "title": "Cloud Next'18 Extended Targu Mures Opening"
+            "title": "Next'18 Extended  - Targu Mures Opening"
         },
         "137": {
             "description": "Afterparty is a great time to have some fun and meet new people",
@@ -304,30 +304,70 @@
             "title": "GDE on Cloud technologies"
         },
         "csongor_lengyel": {
-            "bio": "Márton is a senior software architect at REEA, a Google Developer Expert on Cloud technologies, a romanian Stackoverflow hero with 125K reputation points.<br/>He has extensive experience in building big data solutions for clients using the Google technology stack, and in particular with BigQuery to solve challenging and complex data processing business requirements.<br/><br/>Among other things he is active in mentoring, talks at conferences, interested in Android, and open source solutions like ElasticSearch, Beanstalkd, Riak, Redis.",
-            "company": "REEA",
-            "companyLogo": "/images/logos/reea.svg",
-            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/logos%2Freea_logo_orange.svg?alt=media&token=a78e51b2-d376-4813-8485-934e855d7147",
-            "country": "Targu Mures, Romania",
+            "bio": "When you thrive on issues to solve, riddles to guess, wake up with the solution on your mind, you realize that you cannot define your job because it is actually your hobby. Passionate about technology, obsessed with quality and efficiency, would even automate automation.",
+            "company": "Frequentis AG",
+            "companyLogo": "/images/logos/frequentis.svg",
+            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/logos%2Ffrequentis.png?alt=media&token=b8daa1e2-6ccd-423d-bc0a-87a1bd0d13c8",
+            "country": "Cluj Napoca, Romania",
             "featured": true,
-            "name": "Márton Kodok",
-            "photo": "/images/people/marton-kodok.jpg",
-            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Fmarton.png?alt=media&token=5ba36160-53ac-47fc-b83e-bc7c7ce6bb05",
-            "shortBio": "GDE, Stackoverflow hero, 125K reputation points.",
+            "name": "Csongor Lengyel",
+            "photo": "/images/people/csongor-lengyel.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Flengyel_csongor.jpg?alt=media&token=5ed879c3-bf80-4cac-992d-b73f04799d5e",
+            "shortBio": "Would even automate automation",
             "socials": [{
-                    "icon": "twitter",
-                    "link": "https://twitter.com/martonkodok",
-                    "name": "Twitter"
-                }, {
                     "icon": "linkedin",
-                    "link": "http://ro.linkedin.com/in/pentium10",
+                    "link": "https://www.linkedin.com/in/lcsongor/",
                     "name": "LinkedIn"
                 }, {
-                    "icon": "github",
-                    "link": "https://github.com/pentium10",
-                    "name": "GitHub"
+                    "icon": "facebook",
+                    "link": "https://www.facebook.com/765701508",
+                    "name": "Facebook"
                 }],
-            "title": "GDE on Cloud technologies"
+            "title": "System engineer/integrator"
+        },
+        "botond_palfi": {
+            "bio": "BIO TBD",
+            "company": "Company",
+            "companyLogo": "/images/logos/smartsoft.svg",
+            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/logos%2Flogo_placeholder.png?alt=media&token=227c037f-aef8-405f-9032-0768f472a62a",
+            "country": "Targu Mures, Romania",
+            "featured": true,
+            "name": "Botond Pálfi",
+            "photo": "/images/people/botond-palfi.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Fperson-placeholder.jpg?alt=media&token=591b5ecc-e9bb-42d3-8ac7-fe74874f5d62",
+            "shortBio": "ShortBio",
+            "socials": [{
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/",
+                    "name": "LinkedIn"
+                }, {
+                    "icon": "facebook",
+                    "link": "https://www.facebook.com/",
+                    "name": "Facebook"
+                }],
+            "title": "Title"
+        },
+        "laszlo_budai": {
+            "bio": "BIO TBD",
+            "company": "Company",
+            "companyLogo": "/images/logos/budai.svg",
+            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/logos%2Flogo_placeholder.png?alt=media&token=227c037f-aef8-405f-9032-0768f472a62a",
+            "country": "Targu Mures, Romania",
+            "featured": true,
+            "name": "László Budai",
+            "photo": "/images/people/laszlo-budai.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Fperson-placeholder.jpg?alt=media&token=591b5ecc-e9bb-42d3-8ac7-fe74874f5d62",
+            "shortBio": "ShortBio",
+            "socials": [{
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/",
+                    "name": "LinkedIn"
+                }, {
+                    "icon": "facebook",
+                    "link": "https://www.facebook.com/",
+                    "name": "Facebook"
+                }],
+            "title": "Title"
         }
     },
     "team": [{

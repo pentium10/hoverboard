@@ -1,5 +1,5 @@
 {
-  "title": "Cloud Next 18 Extended Targu Mures",
+  "title": "Next 18 Extended - Targu Mures",
   "description": "Be awesome. Be a cloud hero!",
   "image": "images/social-share.jpg",
   "keywords": "event, itmures, it mures, google, cloud, next, programming, android, chrome, polymer, developers, web, androiddev, community",
@@ -94,7 +94,7 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "Join us for the first **Cloud Next'18 Extended Targu Mures** event, where we'll bring together cloud enthusiasts and the developer community to be a part of the cloud experience. <br/>Next Extended allows local developers to access exciting Next ‘18 content and engage with the community through local speakers, activities, and hands-on labs. ",
+        "description": "Join us for the first **Next'18 Extended - Targu Mures** event, where we'll bring together cloud enthusiasts and the developer community to be a part of the cloud experience. <br/>Next Extended allows local developers to access exciting Next ‘18 content and engage with the community through local speakers, activities, and hands-on labs. ",
         "label": "See announcement",
         "link": "/blog/posts/next18-announced/"
       },
@@ -142,7 +142,7 @@
     "toast": "We will contact you soon!"
   },
   "featuredVideos": {
-    "title": "Google Cloud Next '18 | July 24–26 San Francisco | Featured videos",
+    "title": "Google Cloud | Next '18 | July 24–26 San Francisco | Featured videos",
     "callToAction": {
       "label": "See all videos",
       "link": "https://www.youtube.com/watch?v=m_gLD1YBC1Q&list=PLBgogxgQVM9srRp-G6RkSXwDQGr71hhSf"
@@ -240,7 +240,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='https://www.facebook.com/groups/itmures/' target='_blank'>IT Mures</a> is proud organizer of Cloud Next'18 Extended Targu Mures",
+        "description": "<a href='https://www.facebook.com/groups/itmures/' target='_blank'>IT Mures</a> is proud organizer of Next'18 Extended - Targu Mures",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"

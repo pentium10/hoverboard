@@ -12,7 +12,8 @@
     "src/pages/team-page.html",
     "src/pages/faq-page.html",
     "src/pages/cod-page.html",
-    "src/lazy-resources.html"
+    "src/lazy-resources.html",
+    "src/pages/tickets-page.html"
   ],
   "sources": [
     "data/**/*",

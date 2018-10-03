@@ -1,0 +1,89 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-progress/paper-progress.html">
+
+<link rel="import" href="../mixins/utils-functions.html">
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="../elements/text-truncate.html">
+<link rel="import" href="../elements/shared-styles.html">
+<link rel="import" href="../elements/content-loader.html">
+<link rel="import" href="../elements/tickets-block.html">
+
+<dom-module id="tickets-page">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
+
+    <style>
+
+      :host {
+        display: block;
+        height: 100%;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+        min-height: 80%;
+      }
+
+      paper-progress {
+        width: 100%;
+        --paper-progress-active-color: var(--default-primary-color);
+        --paper-progress-secondary-color: var(--default-primary-color);
+      }
+
+      @media (min-width: 640px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (min-width: 812px) {
+        .container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .container {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+    </style>
+
+    <polymer-helmet
+      title="Tickets | Next 18 Extended - Targu Mures"
+      description="Learn more about tickets"
+      active="[[active]]"
+    ></polymer-helmet>   
+
+     <tickets-block></tickets-block>
+
+    <footer-block></footer-block>
+
+  </template>
+
+  <script>
+
+    // eslint-disable-next-line no-undef
+    class TicketsPage extends ScrollFunctions(ReduxMixin(Polymer.Element)) {
+      static get is() {
+        return 'tickets-page';
+      }
+
+      static get properties() {
+        return {
+          active: Boolean,
+        };
+      }
+    }
+
+    window.customElements.define(TicketsPage.is, TicketsPage);
+
+  </script>
+</dom-module>
+
