@@ -9,6 +9,7 @@
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="../elements/shared-styles.html">
 <link rel="import" href="../elements/posts-list.html">
+<link rel="import" href="../elements/md-content-full.html">
 
 <dom-module id="post-page">
   <template>
@@ -99,6 +100,7 @@
     </hero-block>
 
     <div class="container-narrow">
+      <!--<md-content-full md-source="[[post.source]]"></md-content-full>-->
       <marked-element class="post" markdown="[[post.content]]">
         <div slot="markdown-html"></div>
       </marked-element>

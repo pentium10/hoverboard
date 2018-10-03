@@ -95,8 +95,8 @@
     "callToAction": {
       "featuredSessions": {
         "description": "Join us for the first **Cloud Next'18 Extended Targu Mures** event, where we'll bring together cloud enthusiasts and the developer community to be a part of the cloud experience. <br/>Next Extended allows local developers to access exciting Next ‘18 content and engage with the community through local speakers, activities, and hands-on labs. ",
-        "label": "See schedule",
-        "link": "/schedule"
+        "label": "See announcement",
+        "link": "/blog/posts/next18-announced/"
       },
       "howItWas": {
         "description": "This year we will be diving deep into cloud with technical sessions, a hands-on topic (Google Cloud, Containers, Kubernetes) and specialized speakers.",
