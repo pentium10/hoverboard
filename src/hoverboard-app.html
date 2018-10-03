@@ -166,17 +166,14 @@
 
           <a
             class="buy-ticket"
-            href$="[[tickets.url]]"
-            target="_blank"
+            href="#"
             rel="noopener noreferrer"
             ga-on="click"
             ga-event-category="ticket button"
             ga-event-action="buy_click"
             layout horizontal center
           >
-            <span>{$ buyTicket $}</span>
-            <iron-icon icon="hoverboard:open-in-new"></iron-icon>
-          </a>
+          <paper-button class="buy-button" on-tap="_scrollToTickets" primary>{$ buyTicket $}</paper-button></a>
         </div>
 
       </app-drawer>
@@ -443,6 +440,15 @@
 
       _toggleDrawer(e) {
         uiActions.toggleDrawer(e.detail.value);
+      }
+
+      _scrollToTickets() {
+        // eslint-disable-next-line no-undef
+        const toolbarHeight = HOVERBOARD.Elements.HeaderToolbar.getBoundingClientRect().height - 1;
+        // eslint-disable-next-line no-undef
+        const ticketsBlockPositionY = HOVERBOARD.Elements.Tickets.getBoundingClientRect().top
+          - toolbarHeight;
+        this.scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
       }
     }
 
