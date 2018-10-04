@@ -28,7 +28,7 @@
       }
 
       :host([transparent]) .toolbar-logo {
-        background-color: var(--hero-logo-color);
+        /*background-color: var(--hero-logo-color);*/
         opacity: var(--hero-logo-opacity, 1);
       }
 
@@ -41,11 +41,13 @@
 
       .toolbar-logo {
         display: block;
-        width: 150px;
-        height: 32px;
-        background-color: var(--default-primary-color);
-        transition: background-color var(--animation);
-        -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
+        width: 180px;
+        height: 40px;
+        /*background-color: var(--default-primary-color);*/
+        /*transition: background-color var(--animation);*/
+        /*background: url('/images/logo-mononchrome.svg') no-repeat center bottom fixed;*/ 
+        /*background-size: cover;*/
+        /*-webkit-mask: url('/images/logo-monochrome.svg') no-repeat;*/
       }
 
       .nav-items {
@@ -136,7 +138,8 @@
         ></paper-icon-button>
       </div>
       <div layout horizontal center flex>
-        <a class="toolbar-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>
+        <!--<a class="toolbar-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>-->
+        <a href="/" class="toolbar-logo" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"><img src="/images/logo-monochrome.svg" height="40"/></a>
       </div>
 
       <paper-tabs

@@ -143,15 +143,15 @@
 
       @media (min-width: 1024px) {
         .container {
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(5, 1fr);
         }
       }
 
     </style>
 
     <polymer-helmet
-      title="Speakers | GDG DevFest Ukraine"
-      description="Learn more about speakers"
+      title="{$ heroSettings.speakers.title $} | {$ title $}"
+      description="112{$ heroSettings.speakers.metaDescription $}"
       active="[[_setHelmetData(active, isDialogOpened)]]"
     ></polymer-helmet>
 

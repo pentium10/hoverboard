@@ -3,7 +3,7 @@
         "next18-announced": {
             "backgroundColor": "#2196F3",
             "brief": "It is official. Next'18 Extended - Targu Mures is going to take place on November 8th.",
-            "content": "It is official. Next'18 Extended - Targu Mures is going to take place on **November 8th**.  <br/><br/>**What are Next‘18 Extended Events?** <br/><br/> Next Extended brings together developer communities around the world to take part in the Next ‘18 experience, either during the conference or even after! <br/> <br/>Next Extended allows local developers to access exciting Next ‘18 content and engage with the community through local speakers, activities, and hands-on labs. Google Cloud Next is the I/O equivalent for developers, customers, and other industry partners. <br/><br/>Communities across the globe host external Extended events. Google Developers supports and recognizes GDG and Google Cloud Developer Community chapters that host these events but does not own or manage them.<br/><br/>[IT Mures](/team) got approval to host Next’18 Extended Targu Mures.<br/><br/>**Next’18 Extended - Targu Mures**<br/><br/>Join us for the first Next Extended event in town, where we'll bring together **cloud enthusiasts and the developer community** to be a part of the Next '18 experience.<br/><br/>This year we will be diving deep into cloud with technical sessions, about **VMs, Microservices, Devops, Docker, Kubernetes** and a hands-on codelab on (Kubernetes or Machine Learning TBD) and specialized trainers.<br/><br/>As an attendee, you'll not only be a part of our vibrant cloud community but also **receive free access to Qwiklabs** (a $55+ value) after adding our workshops. <br/><br/>Don't forget to bring a laptop and get ready for the best Next Extended yet! <br/><br/>Make sure to lock your free or supporter ticket and RSVP to receive upcoming information about this event and visit [https://cloudnext.itmures.ro/](https://cloudnext.itmures.ro/) to learn more about **Next '18 Extended - Targu Mures**.<br/><br/>**Students and lecturers can request a free ticket for the entire event.*  <br/><br/>As this is a community event, run by volunteers that want to change IT life in the city, we are looking for partnerships and sponsorships to make this event possible a full day conference.<br/><br/>The organizing team,<br/>IT Mures<br/><div layout horizontal center-justified> <a href=\"/\" rel=\"noopener noreferrer\"> <paper-button primary>Get a ticket</paper-button> </a> </div>",
+            "content": "It is official. Next'18 Extended - Targu Mures is going to take place on **November 8th**.  <br/><br/>**What are Next‘18 Extended Events?** <br/><br/> Next Extended brings together developer communities around the world to take part in the Next ‘18 experience, either during the conference or even after! <br/> <br/>Next Extended allows local developers to access exciting Next ‘18 content and engage with the community through local speakers, activities, and hands-on labs. Google Cloud Next is the I/O equivalent for developers, customers, and other industry partners. <br/><br/>Communities across the globe host external Extended events. Google Developers supports and recognizes GDG and Google Cloud Developer Community chapters that host these events but does not own or manage them.<br/><br/>[IT Mures](/team) got approval to host Next’18 Extended Targu Mures.<br/><br/>**Next’18 Extended - Targu Mures**<br/><br/>Join us for the first Next Extended event in town, where we'll bring together **cloud enthusiasts and the developer community** to be a part of the Next '18 experience.<br/><br/>This year we will be diving deep into cloud with technical sessions, about **VMs, Microservices, Devops, Docker, Kubernetes** and a hands-on codelab on (Kubernetes or Machine Learning TBD) and specialized trainers.<br/><br/>As an attendee, you'll not only be a part of our vibrant cloud community but also **receive free access to Qwiklabs** (a $55+ value) after adding our workshops. <br/><br/>Don't forget to bring a laptop and get ready for the best Next Extended yet! <br/><br/>Make sure to lock your free or supporter ticket and RSVP to receive upcoming information about this event and visit [https://cloudnext.itmures.ro/](https://cloudnext.itmures.ro/) to learn more about **Next '18 Extended - Targu Mures**.<br/><br/>**Students and lecturers can request a free ticket for the entire event.*  <br/><br/>As this is a community event, run by volunteers that want to change IT life in the city, we are looking for partnerships and sponsorships to make this event possible a full day conference.<br/><br/>The organizing team,<br/>IT Mures<br/><div layout horizontal center-justified> <a href=\"/schedule\" rel=\"noopener noreferrer\"> <paper-button primary>See the schedule</paper-button> </a>  &nbsp;&nbsp;&nbsp;  <a href=\"/\" rel=\"noopener noreferrer\"> <paper-button primary>Get a ticket</paper-button> </a> </div>",
             "image": "/images/posts/dfua17-announced.jpg",
             "published": "2018-10-03",
             "source": "/data/posts/2018-10-03-next18-announced.md",
@@ -158,15 +158,15 @@
         },
         "28": {
             "complexity": "Beginner",
-            "description": "TBD",
+            "description": "In this talk we will have a short intro into the world of containers, followed by an overview of Kubernetes. We will discuss the role of Kubernetes in the cloud, and how can we use it to deploy our workloads. During the presentation participants will get info about: <br/>- the architecture of Kubernetes<br/>- the Pod as the smallest deployable unit<br/>- Deployment<br/>- Services and service discovery<br/>- RBAC and accessing the Kubernetes API<br/><br/>This session will include some exercises also, so participants willing to do them are required to bring their own laptops.",
             "language": "English",
             "speakers": ["laszlo_budai"],
             "tags": ["Kubernetes"],
-            "title": "Kubernetes Workshop: TBD"
+            "title": "Kubernetes from zero to ..."
         },
         "29": {
             "complexity": "Intermediate",
-            "description": "",
+            "description": "The presentation is about microservices,  and the challenges to run the microservices in the cloud using docker and docker orchestration tools.<br/>I try to present shortly the benefit of using docker in microservice development and some docker  orchestration tools and the detailed why we selected Kubernetes for running docker based microservices at Google cloud, how to deploy, upgrade, publish, monitor the services.<br/><br/>Shortly I try to present how to collect the logs of the services and how to use this centralized LogServer to debug the applications.",
             "language": "English",
             "speakers": ["botond_palfi"],
             "tags": ["Kubernetes"],
@@ -250,6 +250,24 @@
         }
     },
     "speakers": {
+        "laszlo_budai": {
+            "bio": "I’m László Budai, CTO of Component Soft Ltd. a training and consultancy company. As a senior instructor, I am passionate about teaching other people about technologies like OpenStack, Kubernetes, Ceph. As a consultant I have implemented different projects ranging from industrial automation (SCADA Systems), Telco clustering solutions (based on Solaris and GNU/Linux), to private clouds based on OpenStack, Ceph and Kubernetes",
+            "company": "Component Soft Ltd",
+            "companyLogo": "/images/logos/budai.svg",
+            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/logos%2Fcomponent_soft_logo.png?alt=media&token=7de1e9fa-49d6-44dd-9a85-968631eacc08",
+            "country": "Targu Mures, Romania",
+            "featured": true,
+            "name": "László Budai",
+            "photo": "/images/people/laszlo-budai.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Flaszlo_budai.jpg?alt=media&token=172a799e-5aec-4849-a897-ad32626fe0e4",
+            "shortBio": "Passionate about teaching cloud technologies.",
+            "socials": [{
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/laszlobudai/",
+                    "name": "LinkedIn"
+                }],
+            "title": "CTO"
+        },
         "nimrod_nagy": {
             "bio": "With a passion for DevOps, AI and IOT.",
             "company": "Lynx Solutions",
@@ -271,6 +289,28 @@
                     "name": "LinkedIn"
                 }],
             "title": "CTO"
+        },
+        "botond_palfi": {
+            "bio": "Having strong computer science background, in technology and computer algorithms and great experience in Java/J2EE programming language, having more then 15 years experience in software development. <br/>Having great experience in planning and programming of SOA based J2EE applications for Financial institutes especially banks.<br/><br/>I like to learn the systems end to end  but I better like backend application development and integration.<br/>In the last few years I got a very good experience in integration deployment, maintenance and monitoring  of microservices using docker and  cloud solutions especially <b>Google Cloud</b>.",
+            "company": "3SS",
+            "companyLogo": "/images/logos/smartsoft.svg",
+            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2F3ss_logo_red_black_with_slogan.svg?alt=media&token=544095d4-df9e-4d48-b32d-b8ca8e0c9d2f",
+            "country": "Targu Mures, Romania",
+            "featured": true,
+            "name": "Botond Pálfi",
+            "photo": "/images/people/botond-palfi.jpg",
+            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Fpalfi_botond2.jpg?alt=media&token=ba2ffc13-83cb-436f-adb9-5845866efdc4",
+            "shortBio": "Building Cloud solutions on Google Cloud",
+            "socials": [{
+                    "icon": "linkedin",
+                    "link": "https://www.linkedin.com/in/p%C3%A1lfi-botond-4bb3a413/",
+                    "name": "LinkedIn"
+                }, {
+                    "icon": "facebook",
+                    "link": "https://www.facebook.com/botondpalfi78",
+                    "name": "Facebook"
+                }],
+            "title": "Senior software consultant"
         },
         "marton_kodok": {
             "badges": [{
@@ -323,51 +363,7 @@
                     "link": "https://www.facebook.com/765701508",
                     "name": "Facebook"
                 }],
-            "title": "System engineer/integrator"
-        },
-        "botond_palfi": {
-            "bio": "BIO TBD",
-            "company": "Company",
-            "companyLogo": "/images/logos/smartsoft.svg",
-            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/logos%2Flogo_placeholder.png?alt=media&token=227c037f-aef8-405f-9032-0768f472a62a",
-            "country": "Targu Mures, Romania",
-            "featured": true,
-            "name": "Botond Pálfi",
-            "photo": "/images/people/botond-palfi.jpg",
-            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Fperson-placeholder.jpg?alt=media&token=591b5ecc-e9bb-42d3-8ac7-fe74874f5d62",
-            "shortBio": "ShortBio",
-            "socials": [{
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/",
-                    "name": "LinkedIn"
-                }, {
-                    "icon": "facebook",
-                    "link": "https://www.facebook.com/",
-                    "name": "Facebook"
-                }],
-            "title": "Title"
-        },
-        "laszlo_budai": {
-            "bio": "BIO TBD",
-            "company": "Company",
-            "companyLogo": "/images/logos/budai.svg",
-            "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/logos%2Flogo_placeholder.png?alt=media&token=227c037f-aef8-405f-9032-0768f472a62a",
-            "country": "Targu Mures, Romania",
-            "featured": true,
-            "name": "László Budai",
-            "photo": "/images/people/laszlo-budai.jpg",
-            "photoUrl": "https://firebasestorage.googleapis.com/v0/b/marton-firebase-hoverboard.appspot.com/o/speakers%2Fperson-placeholder.jpg?alt=media&token=591b5ecc-e9bb-42d3-8ac7-fe74874f5d62",
-            "shortBio": "ShortBio",
-            "socials": [{
-                    "icon": "linkedin",
-                    "link": "https://www.linkedin.com/",
-                    "name": "LinkedIn"
-                }, {
-                    "icon": "facebook",
-                    "link": "https://www.facebook.com/",
-                    "name": "Facebook"
-                }],
-            "title": "Title"
+            "title": "SysE and integrator"
         }
     },
     "team": [{
@@ -424,7 +420,7 @@
             "available": true,
             "currency": "FREE",
             "ends": "Nov 5",
-            "info": "Requires valid student/lecturer ID. Access to all content.",
+            "info": "Requires valid student/lecturer ID. Limited quantity.",
             "name": "EDU",
             "soldOut": false,
             "starts": "",
@@ -434,23 +430,32 @@
             "currency": "FREE",
             "ends": "Nov 5",
             "inDemand": false,
-            "info": "Or first 70 tickets.",
+            "info": "Our first batch of tickets.",
             "name": "Regular",
             "primary": true,
-            "regular": true,
             "soldOut": false,
-            "inDemand": true,
             "starts": "",
             "url": "https://docs.google.com/forms/d/e/1FAIpQLSddGbBDwAhVdcg4FevqQcEWn73BErLggDwLoam5olIaKdMrMA/viewform"
         }, {
             "available": true,
             "currency": "RON",
-            "info": "Money worth nothing when you love it",
+            "info": "Supporting our community work",
             "name": "Supporter",
             "price": 30,
+            "inDemand": true,
             "soldOut": false,
             "url": "https://docs.google.com/forms/d/e/1FAIpQLSddGbBDwAhVdcg4FevqQcEWn73BErLggDwLoam5olIaKdMrMA/viewform"
-        }],
+        }, {
+            "available": true,
+            "currency": "RON",
+            "info": "Money worth nothing when you love it",
+            "name": "Special Offer",
+            "regular": true,
+            "price": 70,
+            "soldOut": false,
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSddGbBDwAhVdcg4FevqQcEWn73BErLggDwLoam5olIaKdMrMA/viewform"
+        }
+    ],
     "triggers": {
         "images": false
     },

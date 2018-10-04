@@ -134,7 +134,7 @@
 
       @media (min-width: 1024px) {
         .speakers-wrapper {
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(5, 1fr);
         }
 
         .speaker:last-of-type {
@@ -239,7 +239,7 @@
       _generateSpeakers(speakers) {
         const filteredSpeakers = this.speakers
           .filter((speaker) => speaker.featured);
-        this.set('featuredSpeakers', this.randomOrder(filteredSpeakers).slice(0, 4));
+        this.set('featuredSpeakers', filteredSpeakers.slice(0, 5));
       }
     }
 

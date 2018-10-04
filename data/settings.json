@@ -186,11 +186,6 @@
                 "name": "facebook",
                 "label": "Sign in with Facebook",
                 "url": "https://www.facebook.com"
-            },
-            {
-                "name": "twitter",
-                "label": "Sign in with Twitter",
-                "url": "https://twitter.com"
             }
         ],
         "allowedProvidersUrl": [
