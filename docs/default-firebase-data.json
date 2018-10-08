@@ -450,10 +450,18 @@
             "currency": "RON",
             "info": "Money worth nothing when you love it",
             "name": "Special Offer",
-            "regular": true,
             "price": 70,
+            "regular": true,
             "soldOut": false,
-            "url": "https://docs.google.com/forms/d/e/1FAIpQLSddGbBDwAhVdcg4FevqQcEWn73BErLggDwLoam5olIaKdMrMA/viewform"
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSddGbBDwAhVdcg4FevqQcEWn73BErLggDwLoam5olIaKdMrMA/viewform?usp=pp_url&entry.1255859326=Special+Offer:+70+RON"
+        }, {
+            "available": true,
+            "currency": "RON",
+            "info": "Opportunity to love more",
+            "name": "Cloud Hero",
+            "price": 100,
+            "soldOut": false,
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSddGbBDwAhVdcg4FevqQcEWn73BErLggDwLoam5olIaKdMrMA/viewform?usp=pp_url&entry.1255859326=Cloud+Hero:+100+RON"
         }
     ],
     "triggers": {
