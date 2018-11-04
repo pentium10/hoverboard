@@ -121,6 +121,10 @@
         .ticket-item[in-demand] {
           transform: scale(1.15);
         }
+        
+        .sold-out-text {
+  color:#000;position:relative;top:50%;transform:translateY(-150%);font-size:80px;display:block;text-transform:uppercase;
+}
       }
     </style>
 
@@ -180,6 +184,7 @@
             </div>
           </a>
         </template>
+          <div class="sold-out-text">Sold out</div>
       </div>
 
       <div class="additional-info"> <marked-element markdown="{$ ticketsBlock.ticketsDetails $}">
